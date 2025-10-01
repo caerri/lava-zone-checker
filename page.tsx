@@ -80,7 +80,7 @@ export default function LavaZoneCheckerPage() {
 
       <AddressForm onSubmit={handleLookup} submitting={status === "loading"} />
 
-      <ls status={status} error={error} result={result} />
+      <ResultPanel status={status} error={error} result={result} />
     </main>
   );
 }
